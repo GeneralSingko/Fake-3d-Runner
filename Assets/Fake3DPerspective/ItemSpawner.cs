@@ -58,7 +58,7 @@ public class ItemSpawner : MonoBehaviour
 
     private void ItemMover(Item item)
     {
-        item.itemPosition.z -= speed; //this reverse the movement from going to the center
+        item.itemPosition.z -= speed; //this reverse the movement from going towards the center
                                       //to moving away from the center
     }
 }
